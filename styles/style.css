@@ -1,0 +1,206 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+
+}
+
+.text-color {
+    color: white;
+}
+
+.text {
+    margin-left: 107px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.img img {
+    margin-left: 123px;
+    width: 581px;
+    height: 613px;
+    padding-top: 33px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 8px 30px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: white;
+    transition: background 0.5s;
+}
+
+.button:hover {
+    background: #563434;
+}
+
+.button2 {
+    padding: 8px 30px;
+    background-color: white;
+}
+
+.manue {
+    height: 312px;
+    width: 312px;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+
+
+}
+
+.link {
+    text-align: center;
+    margin-top: 30px;
+    width: 252px;
+    padding-left: 30px;
+
+}
+
+.link a {
+    text-decoration: none;
+    margin-top: 30px;
+    display: block;
+
+}
+
+.button1 {
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 20px 50px;
+    color: white;
+}
+
+.button3 {
+    background: white;
+    border-radius: 5px;
+    padding: 20px 50px;
+    color: black;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.edit {
+    width: 100px;
+    height: 32px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin: 10px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+}
+
+.player {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+footer {
+    width: 100vw;
+    height: 344px;
+    background-color: black;
+}
+
+.mid {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.edit2 {
+    font-size: 30px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.flex {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+/* second part */
+.banner1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle {
+    text-align: center;
+}
+
+span {
+    color: gray;
+}
+
+/* mobile screen */
